@@ -14,7 +14,7 @@ ARG TESTRPC=14023
 
 # You can confirm your timezone by setting the TZ database name field from:
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-ARG LOCALTIMEZONE=Pacific/Auckland
+ARG LOCALTIMEZONE=UTC
 
 # Set to 1 for running it in testnet mode
 ARG TESTNET=0
